@@ -1,41 +1,55 @@
 # AI Prompt Evaluation EN/ES
 
-## What Problem Does This Solve?
-AI evaluation work needs consistent scoring instead of vague opinions.
+> A bilingual prompt-response evaluation workflow with explicit scoring criteria.
 
-## Why It Matters For Business
-Prompt evaluator and AI trainer roles depend on structured quality review across helpfulness, accuracy, safety, clarity, and bilingual quality.
+![Demo](assets/demo.svg)
+
+## Recruiter Snapshot
+
+| 30-second question | Answer |
+| --- | --- |
+| Problem | AI trainer and evaluator work needs repeatable scoring instead of vague preference notes, especially when quality must hold across English and Spanish. |
+| My role | I designed the rubric, generated synthetic EN/ES prompt-response rows, wrote the scoring script, and built a small Streamlit review view. |
+| Result | A reproducible evaluation demo over 48 synthetic rows; the script flags 6 rows for review and reports an average weighted score of 4.12/5. |
+| Portfolio signal | Shows bilingual judgment, evaluator discipline, safety awareness, and Python implementation for AI quality roles. |
+| Data policy | All records are synthetic and safe for a public portfolio. |
 
 ## What I Built
-A synthetic bilingual prompt-response dataset, scoring script, Streamlit review app, and clear evaluation rubric.
 
-## Tools Used
-Prompt evaluation, bilingual QA, rubric design, pandas, Streamlit
+- Weighted criteria for helpfulness, accuracy, safety, clarity, and bilingual quality.
+- CLI summary for grouped scores and rows needing review.
+- Streamlit review app for filtering and inspecting prompt rows.
 
-## Key Skills Demonstrated
-- Business problem framing.
-- Synthetic-data design for public portfolio use.
-- Reproducible Python workflow.
-- Clear documentation for recruiters and technical reviewers.
-- Privacy-safe storytelling: no employer, client, student, credential, medical, family, email, or real job-search data.
+## Evidence In This Repo
 
-## How To Run
+- `src/evaluate_prompts.py` calculates weighted scores and review flags.
+- `src/app.py` gives a visual evaluator dashboard.
+- `data/sample_synthetic_data.csv` keeps the demo public-safe.
+
+## Tools And Concepts
+
+`prompt evaluation`, `bilingual QA`, `Python`, `pandas`, `Streamlit`, `rubric design`
+
+## Run Locally
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 python -m pip install -r requirements.txt
 python src/evaluate_prompts.py
+streamlit run src/app.py
 ```
 
-## Screenshots Placeholder
-Add one screenshot here before publishing:
-- Suggested capture: Rubric score chart or rows flagged for review.
+## Limitations
 
-## What A Recruiter Should Notice
-Synthetic EN/ES prompt-response evaluation dataset and scoring workflow for AI Trainer and LLM Evaluator roles.
+Scores are synthetic practice labels, not ground truth about real model quality or real user conversations.
 
-## What I Learned
-This project helped me practice turning an operations or AI-evaluation idea into a small, executable artifact with clean documentation, measurable output, and safe synthetic data.
+## Next Iteration
+
+- Add inter-rater agreement examples.
+- Add a small evaluator calibration guide.
+- Add exportable review decisions for auditability.
 
 ## Data Privacy
-All sample data is synthetic. This repository must not include private data from Teleperformance, Foundever, UAO, clients, professors, classmates, emails, credentials, IDs, health records, family records, or real job-search records.
+
+Every record, identifier, organization, person, scenario, and result in this project is synthetic unless explicitly marked otherwise. No employer, client, university, colleague, customer, credential, private path, or sensitive personal record is used.

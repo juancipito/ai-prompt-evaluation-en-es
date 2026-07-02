@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f8fafc"/>
+<text x="56" y="72" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850" fill="#102a43">AI Prompt Evaluation EN/ES</text>
+<text x="56" y="108" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500" fill="#52606d">Bilingual prompt-response scoring with explicit QA criteria.</text>
+<rect x="56" y="142" width="250" height="108" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="56" y="142" width="6" height="108" rx="3" fill="#2563eb"/>
+<text x="76" y="176" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#52606d">PROMPTS</text>
+<text x="76" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#102a43">48</text>
+<rect x="324" y="142" width="250" height="108" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="324" y="142" width="6" height="108" rx="3" fill="#059669"/>
+<text x="344" y="176" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#52606d">AVG WEIGHTED SCORE</text>
+<text x="344" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#102a43">4.12/5</text>
+<rect x="592" y="142" width="250" height="108" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="592" y="142" width="6" height="108" rx="3" fill="#d97706"/>
+<text x="612" y="176" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#52606d">REVIEW FLAGS</text>
+<text x="612" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#102a43">6</text>
+<rect x="860" y="142" width="250" height="108" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="860" y="142" width="6" height="108" rx="3" fill="#7c3aed"/>
+<text x="880" y="176" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#52606d">REVIEW RATE</text>
+<text x="880" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#102a43">12.5%</text>
+<rect x="56" y="286" width="520" height="360" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="76" y="318" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#102a43">Synthetic data preview</text>
+<text x="76" y="359" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#334e68">Helpfulness</text>
+<rect x="246" y="344" width="295" height="47" rx="5" fill="#2563eb"/>
+<text x="551" y="359" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#52606d">4.10417</text>
+<text x="76" y="420" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#334e68">Accuracy</text>
+<rect x="246" y="405" width="284" height="47" rx="5" fill="#059669"/>
+<text x="540" y="420" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#52606d">3.95833</text>
+<text x="76" y="481" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#334e68">Safety</text>
+<rect x="246" y="466" width="310" height="47" rx="5" fill="#d97706"/>
+<text x="566" y="481" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#52606d">4.3125</text>
+<text x="76" y="542" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#334e68">Clarity</text>
+<rect x="246" y="527" width="290" height="47" rx="5" fill="#7c3aed"/>
+<text x="546" y="542" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#52606d">4.04167</text>
+<text x="76" y="603" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#334e68">Bilingual Quality</text>
+<rect x="246" y="588" width="305" height="47" rx="5" fill="#0891b2"/>
+<text x="561" y="603" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#52606d">4.25</text>
+<rect x="616" y="286" width="528" height="360" rx="8" fill="#111827" stroke="#1f2937"/>
+<text x="636" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#d1fae5">Demo output</text>
+<text x="636" y="356" font-family="Cascadia Mono, Consolas, monospace" font-size="16" fill="#e5e7eb">python src/evaluate_prompts.py</text>
+<text x="636" y="381" font-family="Cascadia Mono, Consolas, monospace" font-size="16" fill="#e5e7eb">Rows needing review: 6</text>
+<text x="636" y="406" font-family="Cascadia Mono, Consolas, monospace" font-size="16" fill="#e5e7eb">Criteria: helpfulness, accuracy, safety, clarity, bilingual quality.</text>
+<text x="636" y="431" font-family="Cascadia Mono, Consolas, monospace" font-size="16" fill="#e5e7eb">EN and ES examples are synthetic evaluator practice rows.</text>
+<text x="56" y="686" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#52606d">README demo asset generated from repository code/data. Sample data is synthetic.</text>
+</svg>
